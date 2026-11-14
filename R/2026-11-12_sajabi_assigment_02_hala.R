@@ -36,6 +36,7 @@ library(patchwork)
 
 #####trichinella spiralis----
 spiralis_raw <- read_csv("../data/trichinella_spiralis_te.csv")
+spiralis_raw
 
 # check class
 class(spiralis_raw)
@@ -51,6 +52,7 @@ dim(spiralis_raw)
 
 #####trichinella murelli----
 murrelli_raw <- read_csv("../data/trichinella murrelli_te.csv")
+murrelli_raw
 
 # check class
 class(murrelli_raw)
